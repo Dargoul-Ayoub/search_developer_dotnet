@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<HEADER>
+	<div id="first-box" class="model-box ">
+	   <H1 class="center txt-center p-10px m-t-20px">Hello dear recruiter</H1>
+	   <h3 class="center txt-center p-10px m-t-20px">Are you looking for a good junior developer .NET?</h3>
+	   <div class="center txt-center p-10px m-t-20px">
+		   <button id="yes-btn-fb" class="btn-orange">Yes please</button>
+		   <button id="no-btn-fb" class="btn-white">No thanks</button>
+	   </div>
+	</div>
+    <div id="second-box" class="model-box show hide">
+	   <div class="center txt-center p-10px m-t-20px"><h2>Do you want him being :</h2></div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		  <h3>Funny</h3>
+		  <div class="m-t-20px">
+			<input class="btn-funny" type="radio" name="funny" value="YES"><label>YES</label>
+			<input class="btn-funny" type="radio" name="funny" value="NO"> <label>NO</label>
+		  </div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Motivated</h3>
+		<div class="m-t-20px">
+			<input class="btn-motivated" type="radio" name="motivated" value="YES"><label>YES</label>
+			<input class="btn-motivated" type="radio" name="motivated" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Passionate</h3>
+		<div class="m-t-20px">
+			<input class="btn-passionated" type="radio" name="passionated" value="YES"><label>YES</label>
+			<input class="btn-passionated" type="radio" name="passionated" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Creative</h3>
+		<div class="m-t-20px">
+			<input class="btn-creative" type="radio" name="creative" value="YES"><label>YES</label>
+			<input class="btn-creative" type="radio" name="creative" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Ambitious</h3>
+		<div class="m-t-20px">
+			<input class="btn-ambition" type="radio" name="ambition" value="YES"><label>YES</label>
+			<input class="btn-ambition" type="radio" name="ambition" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Talented</h3>
+		<div class="m-t-20px">
+			<input class="btn-talented" type="radio" name="talented" value="YES"><label>YES</label>
+			<input class="btn-talented" type="radio" name="talented" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class="center txt-center p-10px m-t-20px box-choice">
+		<h3>Self-taught</h3>
+		<div class="m-t-20px">
+			<input class="btn-self-taught" type="radio" name="self-taught" value="YES"><label>YES</label>
+			<input class="btn-self-taught" type="radio" name="self-taught" value="NO"> <label>NO</label>
+		</div>
+	   </div>
+	   <div class=" center txt-center p-10px m-t-20px box-choice">
+	   	<button id="btn-search" class="btn-orange">Search</button>
+	   </div>
+    </div>
+    <div id="thired-box" class="model-box">
+    	<h2 class="center txt-center p-10px m-t-20px">Unfortunately, i'm sad to tell you that you have just missed a really good developer</h2>
+    	<div class="center txt-center p-10px m-t-20px">
+			<button id="btn-Go-Back" class="btn-orange">Go Back</button>
+		</div>
+    </div>
+	
+
+
+    <div id="forth-box" class="model-box center txt-center p-10px m-t-20px">
+    	<label id="status"></label>
+    </div>
+    <div id="five-box" class="model-box center txt-center p-10px m-t-20px">
+    	<h2>it's simple !!</h2>
+    	<div class="img-box">
+    		<img src="images\oopla.jpg">
+    	</div>
+		<div class="size-500">
+			<img src="images/me.jpg">
+    	</div>
+    	<h1 id="label-result"></h1>
+    	<div>
+    		<a class="btn-white" href="https://dargoul-ayoub.github.io/myPortfolio/">Let's see some of his work first</a>
+    		<label>Or</label>
+    		<button id="contact" class="btn-orange">Trust me & contat him</button>
+    	</div>
+    </div>
+    <dialog>
+     <h2 style="color: black;border:1px solid black;text-align: center;" class="p-10px">Contact</h2>
+     <label>Tél : 06 44 35 87 39</label><br>
+     <label class="m-t-20px">Email : ayoub.dargoul@gmail.com</label><br><br>
+     <a href="https://github.com/Dargoul-Ayoub">github</a> <a href="https://www.linkedin.com/in/ayoub-dargoul/">linkedin</a><br><br>
+     <div class="float-right">
+     	<button class="btn-orange" id="btn-close">Close</button>
+     </div>
+    </dialog>
+</header>
+<script type="text/javascript" src="javascript.js"></script>	
+</body>
+</html>
